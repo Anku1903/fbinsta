@@ -1,0 +1,78 @@
+.mainbox{
+    height: 100%;
+    margin-top: 50px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox .imgbx{
+    width: 70%;
+    height: 60%;
+}
+.mainbox .imgbx img{
+
+    width: 70%;
+    height: 60%;
+    animation: anim 1s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.mainbox .btnbox{
+    width: 70%;
+    height: 40%;
+}
+
+.mainbox .btnbox button span{
+margin: 0 7px;
+
+}
+.mainbox .btnbox button{
+    cursor: pointer;
+    background: #00007C;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+@keyframes anim{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+@media (max-width:768px){
+    .mainbox{
+        flex-direction: column;
+    }
+    .mainbox .imgbx{
+        height: 85%;
+    }
+    .mainbox .btnbox{
+        height: 15%;
+        width: 68%;
+        margin-top: 65px !important;
+    }
+    .mainbox .imgbx img{
+        width: 110%;
+    }
+    
+}
+@media (max-width:400px){
+    .mainbox .btnbox button{
+    margin: 20px -36px;
+    width: 132% !important;
+    }
+}
