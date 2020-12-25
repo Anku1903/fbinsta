@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fbinsta/static/css/main.4c78556b.chunk.css",
-    "main.js": "/fbinsta/static/js/main.b0663737.chunk.js",
-    "main.js.map": "/fbinsta/static/js/main.b0663737.chunk.js.map",
+    "main.js": "/fbinsta/static/js/main.258a3556.chunk.js",
+    "main.js.map": "/fbinsta/static/js/main.258a3556.chunk.js.map",
     "runtime-main.js": "/fbinsta/static/js/runtime-main.fbc86d51.js",
     "runtime-main.js.map": "/fbinsta/static/js/runtime-main.fbc86d51.js.map",
     "static/js/2.716f096b.chunk.js": "/fbinsta/static/js/2.716f096b.chunk.js",
     "static/js/2.716f096b.chunk.js.map": "/fbinsta/static/js/2.716f096b.chunk.js.map",
     "index.html": "/fbinsta/index.html",
-    "precache-manifest.2bd050efeba52ab5d7957851295b194c.js": "/fbinsta/precache-manifest.2bd050efeba52ab5d7957851295b194c.js",
+    "precache-manifest.c437997b10a54f7f1a404e88085ef479.js": "/fbinsta/precache-manifest.c437997b10a54f7f1a404e88085ef479.js",
     "service-worker.js": "/fbinsta/service-worker.js",
     "static/css/main.4c78556b.chunk.css.map": "/fbinsta/static/css/main.4c78556b.chunk.css.map",
     "static/js/2.716f096b.chunk.js.LICENSE.txt": "/fbinsta/static/js/2.716f096b.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.fbc86d51.js",
     "static/js/2.716f096b.chunk.js",
     "static/css/main.4c78556b.chunk.css",
-    "static/js/main.b0663737.chunk.js"
+    "static/js/main.258a3556.chunk.js"
   ]
 }
